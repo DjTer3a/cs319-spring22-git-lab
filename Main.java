@@ -10,5 +10,11 @@ public class Main {
         // Try subtraction
         calculator.Subtract(50, 15);
         System.out.println(calculator.getLastResult());
-        }
+        
+        // Try Multiplication
+        calculator.Multiply(10, 30);
+        System.out.println(calculator.getLastResult());
+    
+    }
+    
 }
